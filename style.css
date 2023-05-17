@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav{
+    display: flex;
+    width: 100vw;
+    position: fixed;
+    margin: auto;
+    height: 70px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #212529;
+    z-index: 2;
+}
+
+.head_part1{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-left: 50px;
+    padding: 5px 0px;
+
+}
+
+.head_part2{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: end; */
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-right: 50px;
+    padding: auto;
+}
+
+.logo-name{
+    text-decoration: none;
+    font-size: 35px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: auto;
+    margin: auto;
+    color: white;
+    margin-left: 10px;
+}
+
+.fonts{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+}
+
+h1{
+    font-size: 45px;
+    font-weight: 100;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+h2{
+    color: black;
+    font-size: 35px;
+    font-weight: 100;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar_buttons{
+    text-decoration: none;
+    color: white;
+    padding: 0px 30px;
+    display: flex;   
+    align-items: center;
+    height: 100%;
+    font-size: 25px;
+    transition:0.5s;
+}
+
+.navbar_buttons:hover{
+    background-color: rgb(211, 184, 10);
+}
+
+.container{
+    background-image: url('https://media.istockphoto.com/id/1159120092/photo/new-life-of-young-plant-seedling-grow-in-black-soil-gardening-and-environmental-saving.jpg?s=1024x1024&w=is&k=20&c=J0ERkx4ejpiWmCoaLDaOGurZYu3eYoLWjJ-Ay8SrYN0=');
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content{
+    width: 450px;
+    height: 350px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    position: relative;
+    top: 150px;
+}
+
+.content_paragraph{
+    font-weight: 100;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.button {
+    transition-duration: 0.5s;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    margin-top: 25px;
+
+}
+
+.addmargin{
+    margin-bottom: 20px;
+}
+  
+.button:hover {
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+}
+
+.about_data{
+    padding: 100px;
+    height: 85vh;
+    margin-left: 20px;
+}
+
+.about_part1{
+    display: flex;
+    flex-direction: row;
+}
+
+.about_part1_paragraph{
+    padding: 15px;
+    text-align: center;
+    line-height: 35px;
+}
+
+hr{
+    margin: 5px auto;
+    border-style: dashed;
+    border-width: 3px;
+    width: 15%;
+    color: black;
+    margin-bottom: 25px;
+}
+
+.contact{
+    margin: 50px 0px;
+    padding: 100px;
+    height: 85vh;
+}
+
+#footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 70px;
+}
+
+.contact_main{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact_part1{
+    width: 50%;
+    border-right: 5px dotted black;
+    padding: 25px;
+}
+
+.contact_part2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding-left:15px;
+}
+
+.contact_header{
+    font-weight: 500;
+}
+
+.contact_text,.contact_text input::placeholder{
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.contact_text{
+    width: 100%;
+    padding-bottom: 10px;
+    line-height: 25px;
+}
+
+.contact_text input{
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px;
+    width: 400px;
+}
+
+textarea{
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.submitbtn{
+    display: block;
+    margin: 10px auto;
+}
+
+.submitbtn:hover{
+    color: white;
+}

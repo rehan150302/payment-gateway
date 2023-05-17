@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Gateway Integration System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat:wght@100;400;900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="container" id="home">
+        <nav>
+            <div class="head_part1">
+                <img src="images/logo1.png" width="50" height="40" alt="sparks_foundation">
+                <a class="logo-name" href="https://www.thesparksfoundationsingapore.org/">The Sparks Foundation</a>
+            </div>
+            
+            <div class="head_part2">
+                <a class="navbar_buttons fonts" href="#home">Home</a>
+                <a class="navbar_buttons fonts" href="#about">About</a>
+                <a class="navbar_buttons fonts" href="#contact">Contact</a>
+            </div>
+        </nav>
+
+        <div class="content">
+            <h1>Plant a tree. Save your future.</h1>
+            <p class="content_paragraph addmargin">Help us to plant trees by donating and save the nature.</p>
+            <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_LqqC6A0jSiCaTt" async> </script> </form>
+        </div>
+    </div>
+
+    <div class="about_data" id="about">
+        <h2>About Us</h2>
+        <hr class="line">
+        <div class="about_part1">
+            <p class="about_part1_paragraph fonts">The sparks foundation is an NGO working towards achieving the sustainable development goals through tree plantation. Just as the saying goes "A seed planted today, grows its branches tomorrow", we do believe that we must give back more than what we take from mother nature. We want to make it simple for anyone to save the environment by planting trees. Together we can restore forests, creat habitat for biodiversity, and make a positive social impact arount the world.</p>
+            <img width="450px" height="300px" src="https://media.istockphoto.com/id/1351442130/photo/multiracial-volunteers-planting-in-public-park.jpg?s=612x612&w=0&k=20&c=AaM1yRn6w6XZ_R78osWzHptRvMAKK5lmNuJACb6opic=" alt="">
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <hr class="line">
+        <div class="contact_main">
+
+            <div class="contact_part1">
+                <p class="contact_header fonts">Address :</p>
+                <p class="contact_text fonts">THE HANGAR, NUS ENTERPRISE 21 HENG MUI KENG TERRACE, SINGAPORE, 119613</p>
+                <p class="contact_header fonts">Contact :</p>
+                <p class="contact_text fonts">
+                    (for Non-Internship/GRIP Queries Only)
+                    +65-8402-8590, info@thesparksfoundation.sg</p>
+            </div>
+            <div class="contact_part2">
+                <form action="mailto:info@thesparksfoundation.sg" method="post">
+                    <label for="name"><p class="contact_text">Name :
+                        <input class="fonts" type="text" name="name" placeholder="Enter Your Name">
+                        </p>
+                    </label>
+                    <label for="email"><p class="contact_text">Email  : 
+                        <input type="email" name="email" placeholder="Enter Your Email" id="">
+                        </p>
+                    </label>
+                    <label for=""><p class="contact_text">Queries : </p>
+                        <textarea name="" id="" cols="47" rows="8" name=""></textarea>
+                    </label>
+                    <input class="submitbtn button" type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <p class="fonts">© Copyright 2023 The Sparks Foundation</p>
+    </footer> 
+</body>
+</html>
